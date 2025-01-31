@@ -1,0 +1,23 @@
+.include-exclude {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .include-exclude ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .include-exclude ul li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .include-exclude ul li::before {
+    content: '✔';
+    color: green;
+    margin-right: 8px;
+  }
+  

@@ -1,0 +1,11 @@
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

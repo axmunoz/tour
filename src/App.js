@@ -8,6 +8,8 @@ import Packages from '../src/views/Packages';
 import Contact from '../src/views/Contact';
 import Navbar from '../src/components/Navbar.js';
 import Login from '../src/components/Login.js';
+import PackageDetail from './views/PackageDetails.js';
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           <Route path="/packages" element={<Packages />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/packageDetail" element={<PackageDetail />} />
         </Routes>
       </main>
       <Footer />

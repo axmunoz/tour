@@ -1,0 +1,14 @@
+.more-packages {
+    background-color: #1e3a8a;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .more-packages a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
