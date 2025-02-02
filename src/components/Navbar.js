@@ -31,8 +31,8 @@ function Navbar() {
             <ul className="nav-links">
             <li><Link to="/">Inicio</Link></li>
               <li><Link to="/about">Sobre Nosotros</Link></li>
-              <li><Link to="/destinations">Destinos</Link></li>
-              <li><a href="www.google.com">Packages</a></li>
+              <li><Link to="/cart">Destinos</Link></li>
+              <li><Link to="/vistaDetalle">Paquetes</Link></li>
               <li><a href="www.google.com">Contact</a></li>
             </ul>
             <Link to="/login">

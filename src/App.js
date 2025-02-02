@@ -8,7 +8,9 @@ import Packages from '../src/views/Packages';
 import Contact from '../src/views/Contact';
 import Navbar from '../src/components/Navbar.js';
 import Login from '../src/components/Login.js';
-import PackageDetail from './views/PackageDetails.js';
+
+import VistaDetalle from './views/VistaDetalle.js';
+import Cart from './views/Cart.js';
 
 
 
@@ -24,7 +26,8 @@ function App() {
           <Route path="/packages" element={<Packages />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/packageDetail" element={<PackageDetail />} />
+          <Route path='/vistaDetalle' element={<VistaDetalle/>}/>
+          <Route path='/cart'element={<Cart/>}/>
         </Routes>
       </main>
       <Footer />
