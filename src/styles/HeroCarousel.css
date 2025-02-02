@@ -6,7 +6,7 @@
 }
 
 .carousel-slide {
-  height: 90vh;
+  height: 100vh;
   min-height: 600px;
   position: relative;
   overflow: hidden;
