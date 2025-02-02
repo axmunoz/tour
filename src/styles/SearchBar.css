@@ -13,7 +13,10 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.search-bar .input-group-button{
+  
+  z-index: 1;
+}
 .search-bar .input-group {
   display: flex;
   align-items: center;
@@ -60,12 +63,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   padding: 10px 20px;
   border-radius: 50px;
   cursor: pointer;
-  flex: 1 1 150px;
+  flex: 1 1 80px;
   max-width: 200px;
   font-size: 16px;
   text-align: center;
   transition: background-color 0.3s ease;
   font-family: 'Arial', sans-serif;
+  z-index: 1;
 }
 
 .search-bar .btn-inquire:hover {

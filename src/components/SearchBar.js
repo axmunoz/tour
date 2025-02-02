@@ -49,6 +49,7 @@ function SearchBar() {
             ref={endDateRef} // Referencia para el input de tipo date
           />
         </div>
+        
         <button className="btn-inquire">Inquire Now</button>
       </div>
     </section>

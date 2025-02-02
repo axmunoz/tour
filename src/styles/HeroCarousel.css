@@ -2,14 +2,16 @@
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  margin-bottom: -73px;
+  margin-bottom: -53px;
 }
 
 .carousel-slide {
-  height: 100vh;
+  height: 80vh;
   min-height: 600px;
   position: relative;
   overflow: hidden;
+  background-color: #1b8dff;
+  z-index: -1000;
 }
 
 .carousel-image {
