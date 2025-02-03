@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="container">
-        <Link to="/">Caminante</Link>
+        <Link to="/">TOUR EL CAMINANTE</Link>
         {isMobile ? (
           <>
             <button className="menu-toggle" onClick={toggleMenu}>

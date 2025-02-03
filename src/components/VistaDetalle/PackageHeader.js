@@ -2,17 +2,15 @@ import React from "react";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import "../../styles/VistaDetalle/PackageHeader.css";
 
-const PackageHeader = () => {
+const PackageHeader = ({title, rating}) => {
   return (
     <div className="package-header">
       <div className="package-title">
-        <h2>SUMMER HOLIDAY TO THE OXOLOTAN RIVER</h2>
+        <h2>{title}</h2>
         <div className="rating-stars">
-          <FaStar className="star" />
-          <FaStar className="star" />
-          <FaStar className="star" />
-          <FaStar className="star" />
-          <FaStarHalfAlt className="star" />
+          {[...Array(rating.length)].map((_, i) => (
+            <FaStar key={i} className="star" />
+          ))}
         </div>
       </div>
       

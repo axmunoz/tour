@@ -22,6 +22,7 @@
   font-weight: bold;
   color: #1a1a1a;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .rating-stars {

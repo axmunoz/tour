@@ -26,7 +26,8 @@ function App() {
           <Route path="/packages" element={<Packages />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
-          <Route path='/vistaDetalle' element={<VistaDetalle/>}/>
+          {/* <Route path='/vistaDetalle' element={<VistaDetalle/>}/> */}
+          <Route path="/detalle/:id" element={<VistaDetalle />} />
           <Route path='/cart'element={<Cart/>}/>
         </Routes>
       </main>

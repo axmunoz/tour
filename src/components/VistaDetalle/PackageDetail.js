@@ -6,15 +6,15 @@ import PackageItinerary from "./Itinerary";
 import "../../styles/VistaDetalle/PackageDetail.css";
 import PackageHeader from "./PackageHeader";
 
-function PackageDetail() {
+function PackageDetail({destination}) {
   return (
     <div className="single-packge-wrap">
       <div className="single-package-head d-flex align-items-center">
-        <PackageHeader />
+      <PackageHeader title={destination.title} rating={destination.rating} />
       </div>
-      <PackageMeta />
+      <PackageMeta location={destination.location}/>
       <div className="vista-detalle-image-placeholder">
-        <span>1500x1000</span>
+        <img src={destination.imgSrc}></img>
       </div>
       <div className="package-content-detail">
         <PackageOverview />
